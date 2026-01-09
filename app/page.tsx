@@ -17,21 +17,13 @@ export default function Home() {
             The Sopranos - HBO Complete Seasons 1, 2, 3, 4, 5 & 6
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for the DVD{" "}
+            Looking for the DVD ? {" "}
             <a
               href="https://amzn.to/4bnHFYX"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
               DVD on Amazon
             </a>{" "}
-            or the{" "}
-            <a
-              href="https://amzn.to/4bnHFYX"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              DVD on Amazon
-            </a>{" "}
-            center.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
