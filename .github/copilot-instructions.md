@@ -8,10 +8,13 @@ This is a Next.js 16 application built with TypeScript and Tailwind CSS v4. The 
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4
 - **Fonts**: Geist Sans and Geist Mono (Google Fonts)
+- **Analytics**: Google Tag Manager
 - **Linting**: ESLint with Next.js config
 
 ## Project Structure
 - `app/` - Next.js App Router pages and components
+  - `components/` - Reusable components
+    - `GoogleTagManager.tsx` - Google Tag Manager integration component
   - `layout.tsx` - Root layout with metadata and fonts
   - `page.tsx` - Home page component
   - `globals.css` - Global styles with Tailwind imports
@@ -44,6 +47,7 @@ This is a Next.js 16 application built with TypeScript and Tailwind CSS v4. The 
 - Designed for Vercel deployment
 - Static assets in `public/` directory
 - Environment variables in `.env.local` (if needed)
+- Google Tag Manager ID configured via `NEXT_PUBLIC_GTM_ID` environment variable
 
 ## Important Notes
 - This is a marketing/landing page, not a full application
